@@ -1,8 +1,17 @@
-PIXEL QUEST - HORIZONTAL ARCADE
-Original side-scrolling platform game inspired by classic arcade platformers. No Nintendo characters or artwork are included.
+PIXEL QUEST — SIDE-SCROLLING ARCADE GAME (collision fix)
 
-PLAY: Open index.html in a browser. Arrow keys or A/D to move, Space/Up to jump. Touch buttons on mobile.
+HOW TO PLAY
+Left / Right: arrow keys or A/D. Jump: Space, W, Up.
+Touchscreen: on-screen buttons.
 
-GITHUB PAGES: Create a public repository, upload index.html at repository root, then Settings > Pages > Deploy from a branch > main > /(root) > Save.
+ENEMY RULES
+- Land on an enemy FROM ABOVE while falling: enemy is defeated, +3 points, character bounces.
+- Touch an enemy from the side, underneath, or while not performing a valid stomp: immediate Game Over.
+- Falling into a pit costs a life (3 lives for pits).
+- Reach the finish flag to win.
 
-YOUTUBE: This is a browser game / public demo. YouTube Playables submission may require SDK integration, testing, and developer approval. This package is not certified as a YouTube Playables upload.
+HOSTING ON GITHUB PAGES
+Upload index.html to the public repository root, then enable Settings > Pages > Deploy from branch > main > / (root).
+
+NOTE
+Browser-hosting ready, but YouTube Playables submission may require approval and additional SDK testing.
